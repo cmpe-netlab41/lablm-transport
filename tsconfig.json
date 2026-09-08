@@ -1,0 +1,23 @@
+{
+     "compilerOptions": {
+          "module": "commonjs",
+          "target": "es2017",
+          "declaration": true,
+          "removeComments": true,
+          "allowSyntheticDefaultImports": true,
+          "resolveJsonModule": true,
+          "outDir": "./dist",
+          "rootDir": "./src",
+          "incremental": true,
+          "skipLibCheck": true,
+          "strictNullChecks": false,
+          "noImplicitAny": false,
+          "strictPropertyInitialization": false,
+          "forceConsistentCasingInFileNames": false,
+          "noFallthroughCasesInSwitch": false,
+          "lib": ["es2019", "dom", "dom.iterable"],
+          "types": ["jest", "node"]
+     },
+     "include": ["src/**/*"],
+     "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"]
+}
