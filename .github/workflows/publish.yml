@@ -37,11 +37,11 @@ jobs:
       - name: Run Typecheck
         run: pnpm run typecheck
 
-      - name: Run Tests
-        run: pnpm run test
-
       - name: Build Package
         run: pnpm run build
+
+      - name: Run Tests
+        run: pnpm run test
 
       - name: Publish to npm (if version bumped)
         shell: bash
